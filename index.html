@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>google layout </title>
+      <!-- goggle fonmt, materiL ICON , fa-fa icon -->
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> //  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  
+      <style>
+          body{
+              margin: 0;
+              padding: 0;
+              background-image:url("./image/background1.jpg");
+              background-size: cover;
+           }        
+          .navbar{
+              margin: 10px;
+              padding: 10px;
+              display: flex;
+              justify-content: end;
+              list-style-type: none;
+              color:white;
+  
+          }
+          #e-mail{
+              margin:2px;
+              padding:2px;
+          }
+          #image{
+              margin:2px;
+              padding:2px;
+          }
+          .material-icons{
+              margin: 2px;
+          }
+          .main_body{
+              margin: 50px;
+              padding: 5px;
+              align-items: center;
+              padding-left: 30%;
+              display: inline-block;
+      
+             
+          }
+  h2{
+      color:white;
+      text-align: center;
+      font-size: 100px;
+      font-weight: 700;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom:20px;
+  }
+  .search-bar{
+            /* display: inline-block; */
+            align-items: center;
+            justify-content: center;
+      border: 2px solid white;
+      width: max-content;
+      padding: 2px 25px;
+      border-radius: 50px;
+      
+  }
+  .input-field{
+      border:none;
+      width: 350px;
+      outline: none;
+      height: 28px;
+      padding-left: 15px;
+      background: transparent;
+  
+  }
+  input::placeholder{
+      color:gainsboro;
+  }
+  .fa-search{
+      color:white;
+      margin-right: 10px;
+  }
+  #mic{
+      color: white;
+  }
+  #camera{
+      width: 16px;
+      margin: 4px;
+      height: 16px;
+      color:white;
+      background: transparent;
+  }
+  .bottom{
+      
+      width: fit-content;
+      text-align: center;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+  }
+  #wp{
+      color:green;
+      font-size: 20px;
+      margin: 20px;
+     
+  }
+  #youtube{
+      color:red;
+      margin: 20px;
+  } 
+  #googledrive{
+      color: skyblue;
+      margin: 20px;
+  }
+  #mail{
+      color: greenyellow;
+      margin: 20px;
+  }
+  #sign{
+      color: white;
+      margin: 20px;
+  }
+  #meet{
+  color:skyblue;
+  margin: 20px;
+  }
+  #plus{
+      color:white;
+      margin: 20px;
+  }
+  #map{
+      color:white;
+      margin:20px;
+  }
+  #app{
+      color:white;
+  }
+  
+      </style>
+  </head>
+  <body>
+      <nav class="navbar">
+      <li id="e-mail">g-mail</li>
+      <li id="image">images</li>
+      <i class="material-icons">apps</i>
+      </li>
+      <li>   <i class="material-icons">account_circle</i>
+      </li>
+      </nav>
+      <div class="main_body"> 
+          <h2>Google</h2>
+          <div class="search-bar">
+               <i class="fa fa-search" aria-hidden="true" ></i> 
+               <input type="text" class="input-field" placeholder="search google or type a URL">
+               <i class="fa fa-microphone" aria-hidden="true" id="mic"></i>
+         </div>
+         <div class="bottom">
+           <i class="fa-fa-whatapp" aria-hidden="true"></i>
+           <i class="fab fa-whatsapp whatsapp-icon" id="wp"><br id="app"> what's app</i>
+           <i class="fab fa-youtube" aria-hidden="true" id="youtube"><br>youtube</i>
+            <!-- <i class="fab fa-email" area-hidden="true" id="mail" >mail</i> -->
+            <i class="material-icons" id="mail"><br>mail</i>
+            <!-- <i class=" fab fa-googledrive-icon" id="googledrive"></i> -->
+          <i class="fab fa-google-drive google-drive-icon" id="googledrive"><br>google drive</class></i><br>
+          <i class="fab fa-google google-sign-in-icon" id="sign"><br>sign-in</class></i>
+          <i class="fas fa-video google-meet-icon"m id="meet"><br>google-meetl</class></i>
+          <i class="fa fa-map-marker" aria-hidden="true" id="map"><br>goggle-map</i>
+            <i class="fa fa-plus-circle" id=plus><br><class="text">add acount</class></i>
+         </div>
+  
+      </div>
+      
+  </body>
+  </html>
